@@ -1,0 +1,11 @@
+N:\GIT\TempControl\TempControl\TempControl\bin\Debug\TempControl.exe.config
+N:\GIT\TempControl\TempControl\TempControl\bin\Debug\TempControl.exe
+N:\GIT\TempControl\TempControl\TempControl\bin\Debug\TempControl.pdb
+N:\GIT\TempControl\TempControl\TempControl\obj\Debug\TempControl.csproj.AssemblyReference.cache
+N:\GIT\TempControl\TempControl\TempControl\obj\Debug\TempControl.csproj.SuggestedBindingRedirects.cache
+N:\GIT\TempControl\TempControl\TempControl\obj\Debug\TempControl.Form1.resources
+N:\GIT\TempControl\TempControl\TempControl\obj\Debug\TempControl.Properties.Resources.resources
+N:\GIT\TempControl\TempControl\TempControl\obj\Debug\TempControl.csproj.GenerateResource.cache
+N:\GIT\TempControl\TempControl\TempControl\obj\Debug\TempControl.csproj.CoreCompileInputs.cache
+N:\GIT\TempControl\TempControl\TempControl\obj\Debug\TempControl.exe
+N:\GIT\TempControl\TempControl\TempControl\obj\Debug\TempControl.pdb

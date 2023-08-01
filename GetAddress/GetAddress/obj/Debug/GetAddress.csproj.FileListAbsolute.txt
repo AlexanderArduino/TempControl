@@ -1,0 +1,11 @@
+N:\GIT\TempControl\GetAddress\GetAddress\obj\Debug\GetAddress.csproj.AssemblyReference.cache
+N:\GIT\TempControl\GetAddress\GetAddress\obj\Debug\GetAddress.csproj.SuggestedBindingRedirects.cache
+N:\GIT\TempControl\GetAddress\GetAddress\obj\Debug\GetAddress.Form1.resources
+N:\GIT\TempControl\GetAddress\GetAddress\obj\Debug\GetAddress.Properties.Resources.resources
+N:\GIT\TempControl\GetAddress\GetAddress\obj\Debug\GetAddress.csproj.GenerateResource.cache
+N:\GIT\TempControl\GetAddress\GetAddress\obj\Debug\GetAddress.csproj.CoreCompileInputs.cache
+N:\GIT\TempControl\GetAddress\GetAddress\bin\Debug\GetAddress.exe.config
+N:\GIT\TempControl\GetAddress\GetAddress\bin\Debug\GetAddress.exe
+N:\GIT\TempControl\GetAddress\GetAddress\bin\Debug\GetAddress.pdb
+N:\GIT\TempControl\GetAddress\GetAddress\obj\Debug\GetAddress.exe
+N:\GIT\TempControl\GetAddress\GetAddress\obj\Debug\GetAddress.pdb
