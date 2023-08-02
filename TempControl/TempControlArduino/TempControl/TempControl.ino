@@ -51,15 +51,14 @@ void loop() {
       sensor8.requestTemp();
 
       delay(1000);                  // Ожидаем окончания преобразования темпертуры датчиками температуры
-
+      
       SerialPrintResult();          // см. ниже
     }
 
-
     if (cmd == "GetAdr") {
-      if (sensor.readAddress(address_ds1)) {
+      if (sensor.readAddress(address_read)) {
         for (int i = 0; i < 8; i++) {
-          Serial.print(address_ds1[i]);
+          Serial.print(address_read[i]);
           if (i < 7) {
             Serial.print(":");
           }
@@ -67,8 +66,6 @@ void loop() {
       } else {
         Serial.println("Not connected");
       }
-
-
     }
   }
 }

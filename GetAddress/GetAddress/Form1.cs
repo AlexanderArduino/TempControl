@@ -36,6 +36,7 @@ namespace GetAddress
                 MessageBox.Show(ex.Message);
             }
         }
+       
         /*=== Чтение адреса датчика, полученной из контроллера ===*/
         private void serialPort1_DataReceived(object sender, System.IO.Ports.SerialDataReceivedEventArgs e)
         {

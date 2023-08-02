@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnGetAdr = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
             this.button2 = new System.Windows.Forms.Button();
@@ -39,15 +39,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
+            // btnGetAdr
             // 
-            this.button1.Location = new System.Drawing.Point(224, 10);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(86, 48);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Получить адрес датчика";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnGetAdr.Location = new System.Drawing.Point(224, 10);
+            this.btnGetAdr.Name = "btnGetAdr";
+            this.btnGetAdr.Size = new System.Drawing.Size(86, 48);
+            this.btnGetAdr.TabIndex = 0;
+            this.btnGetAdr.Text = "Получить адрес датчика";
+            this.btnGetAdr.UseVisualStyleBackColor = true;
+            this.btnGetAdr.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox1
             // 
@@ -100,7 +100,7 @@
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnGetAdr);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -112,7 +112,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnGetAdr;
         private System.Windows.Forms.TextBox textBox1;
         private System.IO.Ports.SerialPort serialPort1;
         private System.Windows.Forms.Button button2;
