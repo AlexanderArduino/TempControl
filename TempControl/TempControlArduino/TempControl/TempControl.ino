@@ -57,13 +57,18 @@ void loop() {
 
 
     if (cmd == "GetAdr") {
-      sensor.readAddress(address_ds1);
-      for (int i = 0; i < 8; i++) {
-        Serial.print(address_ds1[i]);
-        if (i < 7) {
-          Serial.print(":");
+      if (sensor.readAddress(address_ds1)) {
+        for (int i = 0; i < 8; i++) {
+          Serial.print(address_ds1[i]);
+          if (i < 7) {
+            Serial.print(":");
+          }
         }
+      } else {
+        Serial.println("Not connected");
       }
+
+
     }
   }
 }
