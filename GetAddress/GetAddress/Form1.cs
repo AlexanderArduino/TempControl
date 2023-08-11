@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.IO.Ports;
+using System.Linq;
 using System.Windows.Forms;
 
 namespace GetAddress
@@ -22,6 +23,7 @@ namespace GetAddress
             numericUpDown1.Minimum = 1;
             numericUpDown1.Value = 1;
             numericUpDown1.Increment = 1;
+            timer1.Enabled = false;
         }
         /*=== Запрос на получение адреса датчика ===*/
         private void button1_Click(object sender, EventArgs e)
@@ -36,7 +38,7 @@ namespace GetAddress
                 MessageBox.Show(ex.Message);
             }
         }
-       
+
         /*=== Чтение адреса датчика, полученной из контроллера ===*/
         private void serialPort1_DataReceived(object sender, System.IO.Ports.SerialDataReceivedEventArgs e)
         {
@@ -70,7 +72,12 @@ namespace GetAddress
             textBox1.Text = DS_address;                 // записываем адрес датчика в текстовое поле
             timer1.Enabled = false;                     // отключем таймер 1
             PutAdrInTxt();                              // Помещает адрес датчика в уникальный текстовый файл
+
+            PutAllAdrInTxt();
         }
+        
+        
+        
         /*=== Создание файла и запись туда адреса датчика ===*/
         void PutAdrInTxt()
         {
@@ -85,6 +92,18 @@ namespace GetAddress
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+
+        /*=== Создает (если нет) или открывает файл "Список датчиков" и записывает туда адреса датчиков*/
+        void PutAllAdrInTxt()
+        {
+
+            string path = "Список датчиков.txt";    // Адрес документа
+
+            var lines = File.ReadAllLines(path).ToList();
+            lines[(int)numericUpDown1.Value - 1] = DS_address;
+            File.WriteAllLines(path, lines);
         }
     }
 }

@@ -9,3 +9,13 @@ N:\GIT\TempControl\GetAddress\GetAddress\bin\Debug\GetAddress.exe
 N:\GIT\TempControl\GetAddress\GetAddress\bin\Debug\GetAddress.pdb
 N:\GIT\TempControl\GetAddress\GetAddress\obj\Debug\GetAddress.exe
 N:\GIT\TempControl\GetAddress\GetAddress\obj\Debug\GetAddress.pdb
+D:\GITHUB\TempControl\GetAddress\GetAddress\bin\Debug\GetAddress.exe.config
+D:\GITHUB\TempControl\GetAddress\GetAddress\bin\Debug\GetAddress.exe
+D:\GITHUB\TempControl\GetAddress\GetAddress\bin\Debug\GetAddress.pdb
+D:\GITHUB\TempControl\GetAddress\GetAddress\obj\Debug\GetAddress.csproj.AssemblyReference.cache
+D:\GITHUB\TempControl\GetAddress\GetAddress\obj\Debug\GetAddress.Form1.resources
+D:\GITHUB\TempControl\GetAddress\GetAddress\obj\Debug\GetAddress.Properties.Resources.resources
+D:\GITHUB\TempControl\GetAddress\GetAddress\obj\Debug\GetAddress.csproj.GenerateResource.cache
+D:\GITHUB\TempControl\GetAddress\GetAddress\obj\Debug\GetAddress.csproj.CoreCompileInputs.cache
+D:\GITHUB\TempControl\GetAddress\GetAddress\obj\Debug\GetAddress.exe
+D:\GITHUB\TempControl\GetAddress\GetAddress\obj\Debug\GetAddress.pdb
